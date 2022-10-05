@@ -1,0 +1,104 @@
+body {
+  text-align: center;
+  color: blue;
+  /* background-color: lightblue; */
+  /* background-image: url("https://www.istockphoto.com/resources/images/PhotoFTLP/1035146258.jpg"); */
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: "Alkalami", serif;
+}
+
+/* HEAD SECTION */
+
+p {
+  color: red;
+  text-align: right;
+}
+
+h1 {
+  color: green;
+}
+/* ABOUT US */
+
+#paragraph1 {
+  color: #ffa500;
+  font-size: 50px;
+  display: inline;
+}
+
+.paragraph2 {
+  color: blue;
+  font-size: 25px;
+  text-align: center;
+  display: inline;
+}
+
+/* WHY CHOOSE US */
+.cfi {
+  color: purple;
+  text-align: left;
+  text-transform: uppercase !important;
+  background-image: linear-gradient(to bottom right, red, yellow) !important;
+}
+
+.main-title {
+  color: green;
+  border: 30px double rgb(178, 114, 114);
+  padding: 20px;
+}
+
+.first-div {
+  margin: 30px 5px 20px 100px;
+  padding: 50px;
+  border: 10px solid #ffa500;
+}
+
+.poster-img {
+  height: auto;
+  width: 500px;
+}
+.inner-div1 {
+  padding: 20px;
+  font-family: fantasy;
+}
+
+.btn {
+  color: white;
+  padding: 20px;
+  background-color: purple;
+  border: none;
+  border-radius: 10px;
+  font-size: 25px;
+}
+
+.btn:hover {
+  background-color: black;
+  color: white;
+}
+
+a:visited {
+  color: blue;
+}
+
+.c {
+  text-align: left;
+  font-size: 50px;
+  list-style: none;
+}
+
+.main-title1 {
+  color: green;
+  border: 30px double rgb(178, 114, 114);
+  padding: 20px;
+}
+
+@media (max-width: 800px) {
+  .main-title1 {
+    display: none;
+  }
+}
+)
+
+#grad1 {
+  background-color: red; /* For browsers that do not support gradients */
+}
